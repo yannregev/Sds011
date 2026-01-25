@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -Wl,--dependency-file=CMakeFiles/sds011.dir/link.d CMakeFiles/sds011.dir/main.c.o CMakeFiles/sds011.dir/sds011.c.o -o sds011  libevent_loop_static_mem.a

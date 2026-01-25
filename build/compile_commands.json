@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/yannregev/code/sds011/build",
+  "command": "/usr/bin/gcc  -I/home/yannregev/code/sds011/event_loop_static_mem -g -std=gnu2x -o CMakeFiles/sds011.dir/main.c.o -c /home/yannregev/code/sds011/main.c",
+  "file": "/home/yannregev/code/sds011/main.c",
+  "output": "CMakeFiles/sds011.dir/main.c.o"
+},
+{
+  "directory": "/home/yannregev/code/sds011/build",
+  "command": "/usr/bin/gcc  -I/home/yannregev/code/sds011/event_loop_static_mem -g -std=gnu2x -o CMakeFiles/sds011.dir/sds011.c.o -c /home/yannregev/code/sds011/sds011.c",
+  "file": "/home/yannregev/code/sds011/sds011.c",
+  "output": "CMakeFiles/sds011.dir/sds011.c.o"
+},
+{
+  "directory": "/home/yannregev/code/sds011/build/event_loop_static_mem",
+  "command": "/usr/bin/gcc   -g -std=gnu2x -o CMakeFiles/event_loop_static_mem.dir/eventqueue.c.o -c /home/yannregev/code/sds011/event_loop_static_mem/eventqueue.c",
+  "file": "/home/yannregev/code/sds011/event_loop_static_mem/eventqueue.c",
+  "output": "event_loop_static_mem/CMakeFiles/event_loop_static_mem.dir/eventqueue.c.o"
+},
+{
+  "directory": "/home/yannregev/code/sds011/build/event_loop_static_mem",
+  "command": "/usr/bin/gcc   -g -std=gnu2x -o CMakeFiles/event_loop_static_mem.dir/delayedfunctions.c.o -c /home/yannregev/code/sds011/event_loop_static_mem/delayedfunctions.c",
+  "file": "/home/yannregev/code/sds011/event_loop_static_mem/delayedfunctions.c",
+  "output": "event_loop_static_mem/CMakeFiles/event_loop_static_mem.dir/delayedfunctions.c.o"
+},
+{
+  "directory": "/home/yannregev/code/sds011/build/event_loop_static_mem",
+  "command": "/usr/bin/gcc   -g -std=gnu2x -o CMakeFiles/event_loop_static_mem.dir/periodicfunctions.c.o -c /home/yannregev/code/sds011/event_loop_static_mem/periodicfunctions.c",
+  "file": "/home/yannregev/code/sds011/event_loop_static_mem/periodicfunctions.c",
+  "output": "event_loop_static_mem/CMakeFiles/event_loop_static_mem.dir/periodicfunctions.c.o"
+},
+{
+  "directory": "/home/yannregev/code/sds011/build/event_loop_static_mem",
+  "command": "/usr/bin/gcc   -g -std=gnu2x -o CMakeFiles/event_loop_static_mem.dir/includes.c.o -c /home/yannregev/code/sds011/event_loop_static_mem/includes.c",
+  "file": "/home/yannregev/code/sds011/event_loop_static_mem/includes.c",
+  "output": "event_loop_static_mem/CMakeFiles/event_loop_static_mem.dir/includes.c.o"
+},
+{
+  "directory": "/home/yannregev/code/sds011/build/event_loop_static_mem",
+  "command": "/usr/bin/gcc   -g -std=gnu2x -o CMakeFiles/event_loop_static_mem.dir/queue.c.o -c /home/yannregev/code/sds011/event_loop_static_mem/queue.c",
+  "file": "/home/yannregev/code/sds011/event_loop_static_mem/queue.c",
+  "output": "event_loop_static_mem/CMakeFiles/event_loop_static_mem.dir/queue.c.o"
+}
+]

@@ -1,0 +1,3 @@
+[submodule "event_loop_static_mem"]
+	path = event_loop_static_mem
+	url = git@github.com:yannregev/event_loop_static_mem.git
