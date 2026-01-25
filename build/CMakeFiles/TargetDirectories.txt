@@ -1,6 +1,0 @@
-/home/yannregev/code/sds011/build/CMakeFiles/sds011.dir
-/home/yannregev/code/sds011/build/CMakeFiles/edit_cache.dir
-/home/yannregev/code/sds011/build/CMakeFiles/rebuild_cache.dir
-/home/yannregev/code/sds011/build/event_loop_static_mem/CMakeFiles/event_loop_static_mem.dir
-/home/yannregev/code/sds011/build/event_loop_static_mem/CMakeFiles/edit_cache.dir
-/home/yannregev/code/sds011/build/event_loop_static_mem/CMakeFiles/rebuild_cache.dir

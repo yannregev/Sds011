@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../libevent_loop_static_mem.a CMakeFiles/event_loop_static_mem.dir/eventqueue.c.o CMakeFiles/event_loop_static_mem.dir/delayedfunctions.c.o CMakeFiles/event_loop_static_mem.dir/periodicfunctions.c.o CMakeFiles/event_loop_static_mem.dir/includes.c.o CMakeFiles/event_loop_static_mem.dir/queue.c.o
-/usr/bin/ranlib ../libevent_loop_static_mem.a
