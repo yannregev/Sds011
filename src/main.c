@@ -63,6 +63,7 @@ int main(int argc, char *argv[])
         fprintf(stderr, "Usage: %s <serial_port>\n", argv[0]);
         return 1;
     }
+    Events_Init();
 
     EventAddCallback(EV_AIR_QUALITY_MEASURED, AirQualityMeasuredHandler);
     printf("Starting SDS011 on port: %s\n", argv[1]);

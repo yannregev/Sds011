@@ -1,18 +1,15 @@
-cmake_minimum_required(VERSION 3.10.0)
-project (sds011 VERSION 1.0.0 LANGUAGES C)
-set(CMAKE_C_STANDARD 23)
+cmake_minimum_required(VERSION 3.15)
+project(sds011 C)
 
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+option(BUILD_TESTS "Build unit tests" ON)
+
+add_subdirectory(src)
 add_subdirectory(event_loop_static_mem)
 
-add_executable(${CMAKE_PROJECT_NAME}
-    main.c
-    sds011.c
-)
-
-target_link_libraries(${CMAKE_PROJECT_NAME}
-    PRIVATE event_loop_static_mem
-)
-target_include_directories(${CMAKE_PROJECT_NAME}
-    PRIVATE event_loop_static_mem/
-)
-
+if(BUILD_TESTS)
+    enable_testing()
+    add_subdirectory(tests)
+endif()
